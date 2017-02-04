@@ -1,0 +1,1 @@
+nohup ../word2vec/word2vec/word2vec -train ../corpus_data/giga_chinese.seg -output ../output_emb/giga_chinese.emb -cbow -size 50 -window 5 -negative 10 -nce 0 -hs 0 -sample 1e-4 -threads 12 -binary 0 -iter 5 -cap 0 > log 2>&1 &
